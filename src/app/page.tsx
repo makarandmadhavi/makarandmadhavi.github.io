@@ -24,7 +24,7 @@ export default function Home() {
       </div>
       <div className="container flex items-center justify-center gap-10 flex-wrap">
         <div className="frosted-glass project-item">
-          <a href="https://github.com/makarandmadhavi/Marketting-Campaign-Feature-Engineering-Modeling-Interpretability-report/blob/main/Marketting_Campaign_Feature_Engineering__Modeling_Interpretability_Report.ipynb" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/makarandmadhavi/api-accounting-integration" target="_blank" rel="noopener noreferrer">
             <p>Nextjs Accounting Dashboard</p>
             <div style={{ width: '100%', height: '200px', overflow: 'hidden', position: "relative" }}>
               <Image

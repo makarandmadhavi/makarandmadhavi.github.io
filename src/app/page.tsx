@@ -25,6 +25,20 @@ export default function Home() {
       <div className="container flex items-center justify-center gap-10 flex-wrap">
         <div className="frosted-glass project-item">
           <a href="https://github.com/makarandmadhavi/Marketting-Campaign-Feature-Engineering-Modeling-Interpretability-report/blob/main/Marketting_Campaign_Feature_Engineering__Modeling_Interpretability_Report.ipynb" target="_blank" rel="noopener noreferrer">
+            <p>Nextjs Accounting Dashboard</p>
+            <div style={{ width: '100%', height: '200px', overflow: 'hidden', position: "relative" }}>
+              <Image
+                src="https://makarandmadhavi.github.io/rutter.png"
+                alt="jupyter notebook"
+                layout="fill"
+                objectFit="cover"
+                objectPosition="top left"
+              />
+            </div>
+          </a>
+        </div>
+        <div className="frosted-glass project-item">
+          <a href="https://github.com/makarandmadhavi/Marketting-Campaign-Feature-Engineering-Modeling-Interpretability-report/blob/main/Marketting_Campaign_Feature_Engineering__Modeling_Interpretability_Report.ipynb" target="_blank" rel="noopener noreferrer">
             <p>Marketing Campaign Response Analysis</p>
             <div style={{ width: '100%', height: '200px', overflow: 'hidden', position: "relative" }}>
               <Image
@@ -107,6 +121,7 @@ export default function Home() {
             </div>
           </a>
         </div>
+        
       </div>
 
       <footer className="text-white text-center p-4">

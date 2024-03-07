@@ -3,27 +3,70 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: 255,255,255;
+  --background-rgb: #212224;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-}
+} */
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: var(--background-rgb);
+  text-decoration-color: var(--foreground-rgb);
+}
+
+.bg {
+  background: var(--background-rgb);
+}
+
+.primary-accent {
+  color: #30D5C8;
+}
+
+.secondary-accent {
+  color: #FFD700;
+}
+
+a:hover {
+  color: #FFFFFF;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.animated-icon::after {
+  content: '/';
+  animation: switchFade 1s infinite;
+}
+
+@keyframes switchFade {
+  0% { content: '/';  }
+  50.01% { content: '\\';  }
+  100% { content: '/';  }
+}
+
+.frosted-glass {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.project-item {
+  transition: transform 0.3s ease-in-out;
+  width: 250px;
+}
+
+.project-item:hover {
+  transform: scale(1.05);
+  cursor: pointer;
 }
 
 @layer utilities {

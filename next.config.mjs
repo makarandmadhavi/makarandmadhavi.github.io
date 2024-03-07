@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export',
-    // assetPrefix: '',
+    basePath: "/nextjs-github-pages",
     images: {
         unoptimized: true,
     },

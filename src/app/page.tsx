@@ -5,7 +5,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between px-10 py-10 gap-10">
       <div className="container flex items-center flex-wrap justify-center gap-10">
         <Image
-          src="/makarand.jpg"
+          src="https://makarandmadhavi.github.io/makarandmadhavi.me/makarand.jpg"
           alt="Makarand Madhavi"
           width={250}
           height={250}
@@ -28,7 +28,7 @@ export default function Home() {
             <p>Marketing Campaign Response Analysis</p>
             <div style={{ width: '100%', height: '200px', overflow: 'hidden', position: "relative" }}>
               <Image
-                src="/mk.png"
+                src="https://makarandmadhavi.github.io/makarandmadhavi.me/mk.png"
                 alt="jupyter notebook"
                 layout="fill"
                 objectFit="cover"
@@ -42,7 +42,7 @@ export default function Home() {
             <p>Facial Emotion Classifier</p>
             <div style={{ width: '100%', height: '200px', overflow: 'hidden', position: "relative" }}>
               <Image
-                src="/emotion.png"
+                src="https://makarandmadhavi.github.io/makarandmadhavi.me/emotion.png"
                 alt="jupyter notebook"
                 layout="fill"
                 objectFit="cover"
@@ -56,7 +56,7 @@ export default function Home() {
             <p>NU <br></br> Chronicles</p>
             <div style={{ width: '100%', height: '200px', overflow: 'hidden', position: "relative" }}>
               <Image
-                src="/chronicle.png"
+                src="https://makarandmadhavi.github.io/makarandmadhavi.me/chronicle.png"
                 alt="NU chronicle"
                 layout="fill"
                 objectFit="cover"
@@ -84,7 +84,7 @@ export default function Home() {
             <p>Bootkart - E commerce site</p>
             <div style={{ width: '100%', height: '200px', overflow: 'hidden', position: "relative" }}>
               <Image
-                src="/demouser.gif"
+                src="https://makarandmadhavi.github.io/makarandmadhavi.me/demouser.gif"
                 alt="demo"
                 layout="fill"
                 objectFit="cover"
@@ -99,7 +99,7 @@ export default function Home() {
             <p className="white">Created with Unity Engine</p>
             <div style={{ width: '100%', height: '200px', overflow: 'hidden', position: "relative" }}>
               <Image
-                src="/rollball.png"
+                src="https://makarandmadhavi.github.io/makarandmadhavi.me/rollball.png"
                 alt="Makarand's picture"
                 layout="fill"
                 objectFit="cover"

@@ -28,31 +28,7 @@ export default function Home() {
       </div>
 
       <div className="container flex gap-5 flex-wrap justify-center">
-        <div className="flex flex-col gap-5 flex-wrap md:w-2/5 frosted-glass px-10 py-5">
 
-          <a href="https://github.com/makarandmadhavi/api-accounting-integration" target="_blank" className="secondary-accent">
-            <h2 className="mr-5">Accounting Dashboard <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></h2>
-          </a>
-          <div className="flex flex-row">
-            <div className="badge">API Integration</div>
-            <div className="badge">Web Development</div>
-            <div className="badge">Full Stack</div>
-            <div className="badge">Next.js</div>
-          </div>
-
-          <p className="secondary-text">
-            A full stack web application that provides a dashboard for accounting and finance management.
-          </p>
-          <a href="https://api-integration.makarandmadhavi.me/" target="_blank" className="project-item">
-            <Image
-              src="https://makarandmadhavi.github.io/icstat.png"
-              alt="cloud native"
-              width={500}
-              height={500}
-              className="w-full"
-            />
-          </a>
-        </div>
         <div className="flex flex-col gap-5 flex-wrap md:w-2/5 frosted-glass px-10 py-5">
           <a href="https://github.com/orgs/Makjets/repositories" target="_blank" className="secondary-accent">
             <h2 className="mr-5">Cloud Native WebApp <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></h2>
@@ -79,30 +55,7 @@ export default function Home() {
             />
           </a>
         </div>
-        <div className="flex flex-col gap-5 flex-wrap md:w-2/5 frosted-glass px-10 py-5">
-          <a href="https://makarandmadhavi.me/RollaBallGame/" target="_blank" className="primary-accent">
-            <h2 className="mr-5">Roll a Ball Game <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></h2>
-          </a>
-          <div className="flex flex-row flex-wrap gap-y-2">
-            <div className="badge">Unity</div>
-            <div className="badge">3D</div>
-            <div className="badge">Game Development</div>
-            <div className="badge">Platformer</div>
-            <div className="badge">C#</div>
-          </div>
-          <p className="secondary-text">
-            A 3D platformer game developed using Unity Engine and C#.
-          </p>
-          <a href="https://makarandmadhavi.me/RollaBallGame/" target="_blank" className="project-item">
-            <Image
-              src="https://makarandmadhavi.github.io/rollball.png"
-              alt="cloud native"
-              width={500}
-              height={500}
-              className="w-full"
-            />
-          </a>
-        </div>
+
         <div className="flex flex-col gap-5 flex-wrap md:w-2/5 frosted-glass px-10 py-5">
           <a href="https://github.com/makarandmadhavi/Emotion_Classification" target="_blank" className="primary-accent">
             <h2 className="mr-5">Facial Emotion Classifier <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></h2>
@@ -129,6 +82,31 @@ export default function Home() {
           </a>
         </div>
         <div className="flex flex-col gap-5 flex-wrap md:w-2/5 frosted-glass px-10 py-5">
+
+          <a href="https://github.com/makarandmadhavi/api-accounting-integration" target="_blank" className="secondary-accent">
+            <h2 className="mr-5">Accounting Dashboard <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></h2>
+          </a>
+          <div className="flex flex-row">
+            <div className="badge">API Integration</div>
+            <div className="badge">Web Development</div>
+            <div className="badge">Full Stack</div>
+            <div className="badge">Next.js</div>
+          </div>
+
+          <p className="secondary-text">
+            A full stack web application that provides a dashboard for accounting and finance management.
+          </p>
+          <a href="https://api-integration.makarandmadhavi.me/" target="_blank" className="project-item">
+            <Image
+              src="https://makarandmadhavi.github.io/icstat.png"
+              alt="cloud native"
+              width={500}
+              height={500}
+              className="w-full"
+            />
+          </a>
+        </div>
+        <div className="flex flex-col gap-5 flex-wrap md:w-2/5 frosted-glass px-10 py-5">
           <a href="https://github.com/makarandmadhavi/Marketting-Campaign-Feature-Engineering-Modeling-Interpretability-report/blob/main/Marketting_Campaign_Feature_Engineering__Modeling_Interpretability_Report.ipynb" target="_blank" className="secondary-accent">
             <h2 className="mr-5">Marketting Campaign Reponse Analysis <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></h2>
           </a>
@@ -145,6 +123,30 @@ export default function Home() {
           <a href="https://github.com/makarandmadhavi/Marketting-Campaign-Feature-Engineering-Modeling-Interpretability-report/blob/main/Marketting_Campaign_Feature_Engineering__Modeling_Interpretability_Report.ipynb" target="_blank" className="project-item">
             <Image
               src="https://makarandmadhavi.github.io/mk.png"
+              alt="cloud native"
+              width={500}
+              height={500}
+              className="w-full"
+            />
+          </a>
+        </div>
+        <div className="flex flex-col gap-5 flex-wrap md:w-2/5 frosted-glass px-10 py-5">
+          <a href="https://makarandmadhavi.me/RollaBallGame/" target="_blank" className="primary-accent">
+            <h2 className="mr-5">Roll a Ball Game <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></h2>
+          </a>
+          <div className="flex flex-row flex-wrap gap-y-2">
+            <div className="badge">Unity</div>
+            <div className="badge">3D</div>
+            <div className="badge">Game Development</div>
+            <div className="badge">Platformer</div>
+            <div className="badge">C#</div>
+          </div>
+          <p className="secondary-text">
+            A 3D platformer game developed using Unity Engine and C#.
+          </p>
+          <a href="https://makarandmadhavi.me/RollaBallGame/" target="_blank" className="project-item">
+            <Image
+              src="https://makarandmadhavi.github.io/rollball.png"
               alt="cloud native"
               width={500}
               height={500}
@@ -202,7 +204,7 @@ export default function Home() {
             />
           </a>
         </div>
-      
+
       </div>
 
       <footer className="text-white text-center p-4">

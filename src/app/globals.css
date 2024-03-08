@@ -3,8 +3,10 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 255,255,255;
+  --foreground-rgb: 255, 255, 255;
   --background-rgb: #212224;
+  --primart-accent: #30D5C8;
+  --secondary-accent: #fc926b;
 }
 
 /* @media (prefers-color-scheme: dark) {
@@ -26,11 +28,11 @@ body {
 }
 
 .primary-accent {
-  color: #30D5C8;
+  color: var(--primart-accent);
 }
 
 .secondary-accent {
-  color: #FFD700;
+  color: var(--secondary-accent);
 }
 
 a:hover {
@@ -41,32 +43,51 @@ h1 {
   font-size: 2rem;
 }
 
+h2 {
+  font-size: 1.5rem;
+}
+
 .animated-icon::after {
   content: '/';
   animation: switchFade 1s infinite;
 }
 
 @keyframes switchFade {
-  0% { content: '/';  }
-  50.01% { content: '\\';  }
-  100% { content: '/';  }
+  0% {
+    content: '/';
+  }
+
+  50.01% {
+    content: '\\';
+  }
+
+  100% {
+    content: '/';
+  }
 }
 
 .frosted-glass {
   background-color: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   border-radius: 15px;
-  padding: 15px;
 }
 
 .project-item {
   transition: transform 0.3s ease-in-out;
-  width: 250px;
 }
 
 .project-item:hover {
   transform: scale(1.05);
   cursor: pointer;
+}
+
+.badge {
+  background-color: #60727b;
+  color: var(--foreground-rgb);
+  padding: 0.25rem 0.5rem;
+  border-radius: 1rem;
+  font-size: 0.75rem;
+  margin-right: 0.5rem;
 }
 
 @layer utilities {

@@ -1,4 +1,8 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
+import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+import '@fortawesome/fontawesome-svg-core/styles.css';
+
 
 export default function Home() {
   return (
@@ -22,106 +26,183 @@ export default function Home() {
       <div className="container flex items-center justify-center gap-10">
         <h1> <span className="primary-accent">Projects</span>  <span className="white"> &lt;<span className="animated-icon"></span>&gt; </span> </h1>
       </div>
-      <div className="container flex items-center justify-center gap-10 flex-wrap">
-        <div className="frosted-glass project-item">
-          <a href="https://github.com/makarandmadhavi/api-accounting-integration" target="_blank" rel="noopener noreferrer">
-            <p>Nextjs Accounting Dashboard</p>
-            <div style={{ width: '100%', height: '200px', overflow: 'hidden', position: "relative" }}>
-              <Image
-                src="https://makarandmadhavi.github.io/rutter.png"
-                alt="jupyter notebook"
-                layout="fill"
-                objectFit="cover"
-                objectPosition="top left"
-              />
-            </div>
-          </a>
-        </div>
-        <div className="frosted-glass project-item">
-          <a href="https://github.com/makarandmadhavi/Marketting-Campaign-Feature-Engineering-Modeling-Interpretability-report/blob/main/Marketting_Campaign_Feature_Engineering__Modeling_Interpretability_Report.ipynb" target="_blank" rel="noopener noreferrer">
-            <p>Marketing Campaign Response Analysis</p>
-            <div style={{ width: '100%', height: '200px', overflow: 'hidden', position: "relative" }}>
-              <Image
-                src="https://makarandmadhavi.github.io/mk.png"
-                alt="jupyter notebook"
-                layout="fill"
-                objectFit="cover"
-                objectPosition="top left"
-              />
-            </div>
-          </a>
-        </div>
-        <div className="frosted-glass project-item">
-          <a href="https://github.com/makarandmadhavi/Emotion_Classification" target="_blank" rel="noopener noreferrer">
-            <p>Facial Emotion Classifier</p>
-            <div style={{ width: '100%', height: '200px', overflow: 'hidden', position: "relative" }}>
-              <Image
-                src="https://makarandmadhavi.github.io/emotion.png"
-                alt="jupyter notebook"
-                layout="fill"
-                objectFit="cover"
-                objectPosition="top left"
-              />
-            </div>
-          </a>
-        </div>
-        <div className="project-item frosted-glass">
-          <a href="https://github.com/makarandmadhavi/NU-Chronicles" target="_blank" rel="noopener noreferrer">
-            <p>NU <br></br> Chronicles</p>
-            <div style={{ width: '100%', height: '200px', overflow: 'hidden', position: "relative" }}>
-              <Image
-                src="https://makarandmadhavi.github.io/chronicle.png"
-                alt="NU chronicle"
-                layout="fill"
-                objectFit="cover"
-                objectPosition="top left"
-              />
-            </div>
-          </a>
-        </div>
 
-        <div className="project-item frosted-glass">
-          <h5 className="card-title">Cloud Native WebApp</h5>
-          <a href="https://github.com/Makjets/webapp" target="_blank" rel="noopener noreferrer">
-            <p className="secondary-text">WebApp <span className="white"> - Spring Boot Rest API</span></p>
-          </a>
-          <a href="https://github.com/Makjets/iac-pulumi" target="_blank" rel="noopener noreferrer">
-            <p className="secondary-text">IAC <span className="white"> - AWS Infrastructure deployed via Pulumi</span></p>
-          </a>
-          <a href="https://github.com/Makjets/serverless" target="_blank" rel="noopener noreferrer">
-            <p className="secondary-text">serverless computing <span className="white"> - AWS Lambda function</span></p>
-          </a>
-        </div>
+      <div className="container flex gap-5 flex-wrap justify-center">
+        <div className="flex flex-col gap-5 flex-wrap md:w-2/5 frosted-glass px-10 py-5">
 
-        <div className="project-item frosted-glass">
-          <a href="https://github.com/makarandmadhavi/BootKart---E-Commerce" target="_blank" rel="noopener noreferrer">
-            <p>Bootkart - E commerce site</p>
-            <div style={{ width: '100%', height: '200px', overflow: 'hidden', position: "relative" }}>
-              <Image
-                src="https://makarandmadhavi.github.io/demouser.gif"
-                alt="demo"
-                layout="fill"
-                objectFit="cover"
-                objectPosition="top left"
-              />
-            </div>
+          <a href="https://github.com/makarandmadhavi/api-accounting-integration" target="_blank" className="secondary-accent">
+            <h2 className="mr-5">Accounting Dashboard <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></h2>
+          </a>
+          <div className="flex flex-row">
+            <div className="badge">API Integration</div>
+            <div className="badge">Web Development</div>
+            <div className="badge">Full Stack</div>
+            <div className="badge">Next.js</div>
+          </div>
+
+          <p className="secondary-text">
+            A full stack web application that provides a dashboard for accounting and finance management.
+          </p>
+          <a href="https://api-integration.makarandmadhavi.me/" target="_blank" className="project-item">
+            <Image
+              src="https://makarandmadhavi.github.io/icstat.png"
+              alt="cloud native"
+              width={500}
+              height={500}
+              className="w-full"
+            />
           </a>
         </div>
-        <div className="project-item frosted-glass">
-          <a href="https://makarandmadhavi.github.io/RollaBallGame/" target="_blank" rel="noopener noreferrer">
-            <p>Roll a Ball Game</p>
-            <p className="white">Created with Unity Engine</p>
-            <div style={{ width: '100%', height: '200px', overflow: 'hidden', position: "relative" }}>
-              <Image
-                src="https://makarandmadhavi.github.io/rollball.png"
-                alt="Makarand's picture"
-                layout="fill"
-                objectFit="cover"
-              />
-            </div>
+        <div className="flex flex-col gap-5 flex-wrap md:w-2/5 frosted-glass px-10 py-5">
+          <a href="https://github.com/orgs/Makjets/repositories" target="_blank" className="secondary-accent">
+            <h2 className="mr-5">Cloud Native WebApp <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></h2>
+          </a>
+          <div className="flex flex-row flex-wrap gap-y-2">
+            <div className="badge">Cloud Computing</div>
+            <div className="badge">AWS</div>
+            <div className="badge">Microservices</div>
+            <div className="badge">Infrastructure as Code</div>
+            <div className="badge">Java</div>
+            <div className="badge">Python</div>
+          </div>
+          <p className="secondary-text">
+            A cloud native web application with a microservices architecture deployed on AWS using infrastructure as code (Pulumi) and
+            implementing DevOps Best Practices.
+          </p>
+          <a href="https://github.com/orgs/Makjets/repositories" target="_blank" className="project-item">
+            <Image
+              src="https://makarandmadhavi.github.io/aws.drawio.svg"
+              alt="cloud native"
+              width={500}
+              height={500}
+              className="w-full"
+            />
           </a>
         </div>
-        
+        <div className="flex flex-col gap-5 flex-wrap md:w-2/5 frosted-glass px-10 py-5">
+          <a href="https://makarandmadhavi.me/RollaBallGame/" target="_blank" className="primary-accent">
+            <h2 className="mr-5">Roll a Ball Game <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></h2>
+          </a>
+          <div className="flex flex-row flex-wrap gap-y-2">
+            <div className="badge">Unity</div>
+            <div className="badge">3D</div>
+            <div className="badge">Game Development</div>
+            <div className="badge">Platformer</div>
+            <div className="badge">C#</div>
+          </div>
+          <p className="secondary-text">
+            A 3D platformer game developed using Unity Engine and C#.
+          </p>
+          <a href="https://makarandmadhavi.me/RollaBallGame/" target="_blank" className="project-item">
+            <Image
+              src="https://makarandmadhavi.github.io/rollball.png"
+              alt="cloud native"
+              width={500}
+              height={500}
+              className="w-full"
+            />
+          </a>
+        </div>
+        <div className="flex flex-col gap-5 flex-wrap md:w-2/5 frosted-glass px-10 py-5">
+          <a href="https://github.com/makarandmadhavi/Emotion_Classification" target="_blank" className="primary-accent">
+            <h2 className="mr-5">Facial Emotion Classifier <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></h2>
+          </a>
+          <div className="flex flex-row flex-wrap gap-y-2">
+            <div className="badge">Machiner Learning</div>
+            <div className="badge">Neural Networks</div>
+            <div className="badge">TensorFlow</div>
+            <div className="badge">Keras</div>
+            <div className="badge">Flask</div>
+          </div>
+          <p className="secondary-text">
+            A deep learning model that classifies facial emotions using Convolutional Neural Networks.
+            The model is deployed as a web application using Flask.
+          </p>
+          <a href="https://github.com/makarandmadhavi/Emotion_Classification" target="_blank" className="project-item">
+            <Image
+              src="https://makarandmadhavi.github.io/emotion.png"
+              alt="cloud native"
+              width={500}
+              height={500}
+              className="w-full"
+            />
+          </a>
+        </div>
+        <div className="flex flex-col gap-5 flex-wrap md:w-2/5 frosted-glass px-10 py-5">
+          <a href="https://github.com/makarandmadhavi/Marketting-Campaign-Feature-Engineering-Modeling-Interpretability-report/blob/main/Marketting_Campaign_Feature_Engineering__Modeling_Interpretability_Report.ipynb" target="_blank" className="secondary-accent">
+            <h2 className="mr-5">Marketting Campaign Reponse Analysis <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></h2>
+          </a>
+          <div className="flex flex-row flex-wrap gap-y-2">
+            <div className="badge">Statistical Learning</div>
+            <div className="badge">AutoML</div>
+            <div className="badge">Feature Engineering</div>
+            <div className="badge">Model Interpretability</div>
+            <div className="badge">Python</div>
+          </div>
+          <p className="secondary-text">
+            A comprehensive report on the analysis of a marketting campaign response using statistical learning, feature engineering and model interpretability techniques.
+          </p>
+          <a href="https://github.com/makarandmadhavi/Marketting-Campaign-Feature-Engineering-Modeling-Interpretability-report/blob/main/Marketting_Campaign_Feature_Engineering__Modeling_Interpretability_Report.ipynb" target="_blank" className="project-item">
+            <Image
+              src="https://makarandmadhavi.github.io/mk.png"
+              alt="cloud native"
+              width={500}
+              height={500}
+              className="w-full"
+            />
+          </a>
+        </div>
+        <div className="flex flex-col gap-5 flex-wrap md:w-2/5 frosted-glass px-10 py-5">
+          <a href="https://github.com/makarandmadhavi/NU-Chronicles" target="_blank" className="secondary-accent">
+            <h2 className="mr-5">NU Chronicles <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></h2>
+          </a>
+          <div className="flex flex-row flex-wrap gap-y-2">
+            <div className="badge">Web Development</div>
+            <div className="badge">React</div>
+            <div className="badge">Express</div>
+            <div className="badge">MongoDB</div>
+            <div className="badge">Rest APIs</div>
+
+          </div>
+          <p className="secondary-text">
+            A deep learning model that classifies facial emotions using Convolutional Neural Networks.
+            The model is deployed as a web application using Flask.
+          </p>
+          <a href="https://github.com/makarandmadhavi/NU-Chronicles" target="_blank" className="project-item">
+            <Image
+              src="https://makarandmadhavi.github.io/chronicle.png"
+              alt="cloud native"
+              width={500}
+              height={500}
+              className="w-full"
+            />
+          </a>
+        </div>
+        <div className="flex flex-col gap-5 flex-wrap md:w-2/5 frosted-glass px-10 py-5">
+          <a href="https://github.com/makarandmadhavi/BootKart---E-Commerce" target="_blank" className="primary-accent">
+            <h2 className="mr-5">Bootkart Ecommerce <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></h2>
+          </a>
+          <div className="flex flex-row flex-wrap gap-y-2">
+            <div className="badge">Web Development</div>
+            <div className="badge">jQuery</div>
+            <div className="badge">php</div>
+            <div className="badge">MySQL</div>
+
+          </div>
+          <p className="secondary-text">
+            A simple E-commerce website for selling electronics based on LAMP stack.
+          </p>
+          <a href="https://github.com/makarandmadhavi/BootKart---E-Commerce" target="_blank" className="project-item">
+            <Image
+              src="https://makarandmadhavi.github.io/demouser.gif"
+              alt="cloud native"
+              width={500}
+              height={500}
+              className="w-full"
+            />
+          </a>
+        </div>
+      
       </div>
 
       <footer className="text-white text-center p-4">

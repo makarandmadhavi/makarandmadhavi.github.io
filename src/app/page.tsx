@@ -108,7 +108,7 @@ export default function Home() {
             <h2 className="mr-5">Facial Emotion Classifier <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></h2>
           </a>
           <div className="flex flex-row flex-wrap gap-y-2">
-            <div className="badge">Machiner Learning</div>
+            <div className="badge">Machine Learning</div>
             <div className="badge">Neural Networks</div>
             <div className="badge">TensorFlow</div>
             <div className="badge">Keras</div>

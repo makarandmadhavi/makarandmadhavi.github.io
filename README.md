@@ -6,7 +6,7 @@ https://makarandmadhavi.me/
 ## Tech stack
 
 - Next.js
-- Bootstrap
+- Tailwind css
 
 ## Getting Started with Next.js
 

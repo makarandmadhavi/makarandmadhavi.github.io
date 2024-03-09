@@ -167,8 +167,7 @@ export default function Home() {
 
           </div>
           <p className="secondary-text">
-            A deep learning model that classifies facial emotions using Convolutional Neural Networks.
-            The model is deployed as a web application using Flask.
+            A web application for students to share their experiences at Northeastern University. The application is built using MERN stack.
           </p>
           <a href="https://github.com/makarandmadhavi/NU-Chronicles" target="_blank" className="project-item">
             <Image

@@ -107,7 +107,7 @@ export default function Home() {
           </a>
         </div>
         <div className="flex flex-col gap-5 flex-wrap md:w-2/5 frosted-glass px-10 py-5">
-          <a href="https://github.com/makarandmadhavi/Marketting-Campaign-Feature-Engineering-Modeling-Interpretability-report/blob/main/Marketting_Campaign_Feature_Engineering__Modeling_Interpretability_Report.ipynb" target="_blank" className="secondary-accent">
+          <a href="https://github.com/makarandmadhavi/Marketting-Campaign-Feature-Engineering-Modeling-Interpretability-report/blob/main/Marketting_Campaign_Feature_Engineering__Modeling_Interpretability_Report.ipynb" target="_blank" className="primary-accent">
             <h2 className="mr-5">Marketting Campaign Reponse Analysis <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></h2>
           </a>
           <div className="flex flex-row flex-wrap gap-y-2">
@@ -131,7 +131,7 @@ export default function Home() {
           </a>
         </div>
         <div className="flex flex-col gap-5 flex-wrap md:w-2/5 frosted-glass px-10 py-5">
-          <a href="https://makarandmadhavi.me/RollaBallGame/" target="_blank" className="primary-accent">
+          <a href="https://makarandmadhavi.me/RollaBallGame/" target="_blank" className="secondary-accent">
             <h2 className="mr-5">Roll a Ball Game <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></h2>
           </a>
           <div className="flex flex-row flex-wrap gap-y-2">
@@ -155,7 +155,7 @@ export default function Home() {
           </a>
         </div>
         <div className="flex flex-col gap-5 flex-wrap md:w-2/5 frosted-glass px-10 py-5">
-          <a href="https://github.com/makarandmadhavi/NU-Chronicles" target="_blank" className="secondary-accent">
+          <a href="https://github.com/makarandmadhavi/NU-Chronicles" target="_blank" className="primary-accent">
             <h2 className="mr-5">NU Chronicles <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></h2>
           </a>
           <div className="flex flex-row flex-wrap gap-y-2">
@@ -180,7 +180,7 @@ export default function Home() {
           </a>
         </div>
         <div className="flex flex-col gap-5 flex-wrap md:w-2/5 frosted-glass px-10 py-5">
-          <a href="https://github.com/makarandmadhavi/BootKart---E-Commerce" target="_blank" className="primary-accent">
+          <a href="https://github.com/makarandmadhavi/BootKart---E-Commerce" target="_blank" className="secondary-accent">
             <h2 className="mr-5">Bootkart Ecommerce <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></h2>
           </a>
           <div className="flex flex-row flex-wrap gap-y-2">

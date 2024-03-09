@@ -18,9 +18,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-      <NavBar />
+        <NavBar />
+        <video id="background-video" autoPlay loop muted>
+          <source src="/background.mp4" type="video/mp4"/>
+        </video>
+
         {children}
-        </body>
+      </body>
     </html>
   );
 }

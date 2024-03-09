@@ -15,7 +15,7 @@ export default function Home() {
           height={250}
           className="rounded-full"
         />
-        <div>
+        <div className="frosted-glass p-10">
           <h3 >Hi ! 👋 </h3>
           <h4 className="card-title mb-0">Makarand here </h4>
           <br />

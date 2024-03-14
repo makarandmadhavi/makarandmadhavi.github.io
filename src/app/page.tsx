@@ -104,7 +104,7 @@ export default function Home() {
           <a href="https://github.com/orgs/Makjets/repositories" target="_blank" className="project-item">
             <Image
               src="https://makarandmadhavi.github.io/aws.drawio.svg"
-              alt="cloud native"
+              alt="Cloud architecture Diagram"
               width={500}
               height={500}
               className="w-full"
@@ -130,7 +130,7 @@ export default function Home() {
           <a href="https://github.com/makarandmadhavi/Emotion_Classification" target="_blank" className="project-item">
             <Image
               src="https://makarandmadhavi.github.io/emotion.png"
-              alt="cloud native"
+              alt="UI"
               width={500}
               height={500}
               className="w-full"
@@ -155,7 +155,7 @@ export default function Home() {
           <a href="https://api-integration.makarandmadhavi.me/" target="_blank" className="project-item">
             <Image
               src="https://makarandmadhavi.github.io/icstat.png"
-              alt="cloud native"
+              alt="Accounting Dashboard"
               width={500}
               height={500}
               className="w-full"
@@ -179,7 +179,7 @@ export default function Home() {
           <a href="https://github.com/makarandmadhavi/Marketting-Campaign-Feature-Engineering-Modeling-Interpretability-report/blob/main/Marketting_Campaign_Feature_Engineering__Modeling_Interpretability_Report.ipynb" target="_blank" className="project-item">
             <Image
               src="https://makarandmadhavi.github.io/mk.png"
-              alt="cloud native"
+              alt="Jupyter Notebook"
               width={500}
               height={500}
               className="w-full"
@@ -203,7 +203,7 @@ export default function Home() {
           <a href="https://makarandmadhavi.me/RollaBallGame/" target="_blank" className="project-item">
             <Image
               src="https://makarandmadhavi.github.io/rollball.png"
-              alt="cloud native"
+              alt="Game Snapshot"
               width={500}
               height={500}
               className="w-full"
@@ -228,7 +228,7 @@ export default function Home() {
           <a href="https://github.com/makarandmadhavi/NU-Chronicles" target="_blank" className="project-item">
             <Image
               src="https://makarandmadhavi.github.io/chronicle.png"
-              alt="cloud native"
+              alt="Homepage snapshot"
               width={500}
               height={500}
               className="w-full"
@@ -252,7 +252,7 @@ export default function Home() {
           <a href="https://github.com/makarandmadhavi/BootKart---E-Commerce" target="_blank" className="project-item">
             <Image
               src="https://makarandmadhavi.github.io/demouser.gif"
-              alt="cloud native"
+              alt="Demo gif"
               width={500}
               height={500}
               className="w-full"

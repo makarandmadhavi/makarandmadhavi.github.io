@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import NavBar from "@/app/ui/navbar";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,7 +21,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" prefix="og: http://ogp.me/ns#">
+      <Head>
+        <meta property="og:title" content="Makarand" />
+        <meta property="og:description" content="Makarand Madhavi's personal website" />
+        <meta property="og:url" content="https://makarandmadhavi.me/" />
+        <meta property="og:image" content="https://makarandmadhavi.me/opengraph-image.png" />
+        <meta property="og:type" content="website" />
+      </Head>
       <body className={inter.className}>
         <NavBar />
         <video id="background-video" autoPlay loop muted>

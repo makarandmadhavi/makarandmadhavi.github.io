@@ -1,7 +1,9 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
-import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+import { faArrowUpRightFromSquare, faEnvelope, faMailReply } from "@fortawesome/free-solid-svg-icons";
 import '@fortawesome/fontawesome-svg-core/styles.css';
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import Link from "next/link";
 
 
 export default function Home() {
@@ -15,12 +17,66 @@ export default function Home() {
           height={250}
           className="rounded-full"
         />
-        <div className="frosted-glass p-10">
+        <div className="frosted-glass p-10 max-w-lg">
           <h3 >Hi ! 👋 </h3>
           <h4 className="card-title mb-0">Makarand here </h4>
           <br />
-          <p className="secondary-text">A Versatile <span className="primary-accent"> Software Engineer</span></p>
+          <p className="secondary-text">Versatile <span className="primary-accent"> Software Engineer</span> with a proven track record in web development, microservices, APIs, machine learning/AI, and DevOps.</p>
           <p className="white">Explore my portfolio to see my projects in action!</p>
+          <br />
+          <div className="text-3xl">
+            <Link href="https://www.linkedin.com/in/makarandmadhavi/" target="_blank" className="social-icon">
+              <FontAwesomeIcon icon={faLinkedin} />
+            </Link> 
+            <Link href="https://github.com/makarandmadhavi" className="social-icon"> &nbsp;
+              <FontAwesomeIcon icon={faGithub} /> &nbsp;
+            </Link>
+            <Link href="mailto:madhavi.m@northeastern.edu" className="social-icon">
+              <FontAwesomeIcon icon={faEnvelope} />
+            </Link>
+
+          </div>
+        </div>
+        <div className="frosted-glass p-10 max-w-sm flex flex-col flex-wrap">
+        <h2 className="primary-accent">Skills</h2>
+        <div className="flex flex-wrap gap-y-2 overflow-y-scroll">
+          <div className="badge">Java</div>
+          <div className="badge">Python</div>
+          <div className="badge">JavaScript</div>
+          <div className="badge">TypeScript</div>
+          <div className="badge">Node.js</div>
+          <div className="badge">React</div>
+          <div className="badge">Next.js</div>
+          <div className="badge">Express</div>
+          <div className="badge">Flask</div>
+          <div className="badge">Spring Boot</div>
+          <div className="badge">Docker</div>
+          <div className="badge">Kubernetes</div>
+          <div className="badge">AWS</div>
+          <div className="badge">GCP</div>
+          <div className="badge">Terraform</div>
+          <div className="badge">Pulumi</div>
+          <div className="badge">CI/CD</div>
+          <div className="badge">Git</div>
+          <div className="badge">Machine Learning</div>
+          <div className="badge">Deep Learning</div>
+          <div className="badge">Neural Networks</div>
+          <div className="badge">TensorFlow</div>
+          <div className="badge">Keras</div>
+          <div className="badge">Scikit-learn</div>
+          <div className="badge">Pandas</div>
+          <div className="badge">Numpy</div>
+          <div className="badge">Matplotlib</div>
+          <div className="badge">Dask</div>
+          <div className="badge">SQL</div>
+          <div className="badge">NoSQL</div>
+          <div className="badge">C#</div>
+          <div className="badge">Unity</div>
+          <div className="badge">Unreal Engine</div>
+          <div className="badge">HTML</div>
+          <div className="badge">CSS</div>
+          <div className="badge">Tailwind</div>
+        </div>
         </div>
       </div>
       <div className="container flex items-center justify-center gap-10">

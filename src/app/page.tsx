@@ -27,7 +27,7 @@ export default function Home() {
           <div className="text-3xl">
             <Link href="https://www.linkedin.com/in/makarandmadhavi/" target="_blank" className="social-icon">
               <FontAwesomeIcon icon={faLinkedin} />
-            </Link> 
+            </Link>
             <Link href="https://github.com/makarandmadhavi" className="social-icon"> &nbsp;
               <FontAwesomeIcon icon={faGithub} /> &nbsp;
             </Link>
@@ -38,45 +38,45 @@ export default function Home() {
           </div>
         </div>
         <div className="frosted-glass p-10 max-w-sm flex flex-col flex-wrap">
-        <h2 className="primary-accent">Skills</h2>
-        <div className="flex flex-wrap gap-y-2 overflow-y-scroll">
-          <div className="badge">Java</div>
-          <div className="badge">Python</div>
-          <div className="badge">JavaScript</div>
-          <div className="badge">TypeScript</div>
-          <div className="badge">Node.js</div>
-          <div className="badge">React</div>
-          <div className="badge">Next.js</div>
-          <div className="badge">Express</div>
-          <div className="badge">Flask</div>
-          <div className="badge">Spring Boot</div>
-          <div className="badge">Docker</div>
-          <div className="badge">Kubernetes</div>
-          <div className="badge">AWS</div>
-          <div className="badge">GCP</div>
-          <div className="badge">Terraform</div>
-          <div className="badge">Pulumi</div>
-          <div className="badge">CI/CD</div>
-          <div className="badge">Git</div>
-          <div className="badge">Machine Learning</div>
-          <div className="badge">Deep Learning</div>
-          <div className="badge">Neural Networks</div>
-          <div className="badge">TensorFlow</div>
-          <div className="badge">Keras</div>
-          <div className="badge">Scikit-learn</div>
-          <div className="badge">Pandas</div>
-          <div className="badge">Numpy</div>
-          <div className="badge">Matplotlib</div>
-          <div className="badge">Dask</div>
-          <div className="badge">SQL</div>
-          <div className="badge">NoSQL</div>
-          <div className="badge">C#</div>
-          <div className="badge">Unity</div>
-          <div className="badge">Unreal Engine</div>
-          <div className="badge">HTML</div>
-          <div className="badge">CSS</div>
-          <div className="badge">Tailwind</div>
-        </div>
+          <h2 className="primary-accent">Skills</h2>
+          <div className="flex flex-wrap gap-y-2 overflow-y-scroll">
+            <div className="badge">Java</div>
+            <div className="badge">Python</div>
+            <div className="badge">JavaScript</div>
+            <div className="badge">TypeScript</div>
+            <div className="badge">Node.js</div>
+            <div className="badge">React</div>
+            <div className="badge">Next.js</div>
+            <div className="badge">Express</div>
+            <div className="badge">Flask</div>
+            <div className="badge">Spring Boot</div>
+            <div className="badge">Docker</div>
+            <div className="badge">Kubernetes</div>
+            <div className="badge">AWS</div>
+            <div className="badge">GCP</div>
+            <div className="badge">Terraform</div>
+            <div className="badge">Pulumi</div>
+            <div className="badge">CI/CD</div>
+            <div className="badge">Git</div>
+            <div className="badge">Machine Learning</div>
+            <div className="badge">Deep Learning</div>
+            <div className="badge">Neural Networks</div>
+            <div className="badge">TensorFlow</div>
+            <div className="badge">Keras</div>
+            <div className="badge">Scikit-learn</div>
+            <div className="badge">Pandas</div>
+            <div className="badge">Numpy</div>
+            <div className="badge">Matplotlib</div>
+            <div className="badge">Dask</div>
+            <div className="badge">SQL</div>
+            <div className="badge">NoSQL</div>
+            <div className="badge">C#</div>
+            <div className="badge">Unity</div>
+            <div className="badge">Unreal Engine</div>
+            <div className="badge">HTML</div>
+            <div className="badge">CSS</div>
+            <div className="badge">Tailwind</div>
+          </div>
         </div>
       </div>
       <div className="container flex items-center justify-center gap-10">
@@ -112,8 +112,35 @@ export default function Home() {
           </a>
         </div>
 
+
         <div className="flex flex-col gap-5 flex-wrap md:w-2/5 frosted-glass px-10 py-5">
-          <a href="https://github.com/makarandmadhavi/Emotion_Classification" target="_blank" className="primary-accent">
+
+          <a href="https://github.com/makarandmadhavi/api-accounting-integration" target="_blank" className="primary-accent">
+            <h2 className="mr-5">Accounting Dashboard <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></h2>
+          </a>
+          <div className="flex flex-row">
+            <div className="badge">API Integration</div>
+            <div className="badge">Web Development</div>
+            <div className="badge">Full Stack</div>
+            <div className="badge">Next.js</div>
+          </div>
+
+          <p className="secondary-text">
+            A full stack web application that provides a dashboard for accounting and finance management.
+          </p>
+          <a href="https://api-integration.makarandmadhavi.me/" target="_blank" className="project-item">
+            <Image
+              src="https://makarandmadhavi.github.io/icstat.png"
+              alt="Accounting Dashboard"
+              width={500}
+              height={500}
+              className="w-full"
+            />
+          </a>
+        </div>
+
+        <div className="flex flex-col gap-5 flex-wrap md:w-2/5 frosted-glass px-10 py-5">
+          <a href="https://github.com/makarandmadhavi/Emotion_Classification" target="_blank" className="secondary-accent">
             <h2 className="mr-5">Facial Emotion Classifier <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></h2>
           </a>
           <div className="flex flex-row flex-wrap gap-y-2">
@@ -137,33 +164,34 @@ export default function Home() {
             />
           </a>
         </div>
+
         <div className="flex flex-col gap-5 flex-wrap md:w-2/5 frosted-glass px-10 py-5">
-
-          <a href="https://github.com/makarandmadhavi/api-accounting-integration" target="_blank" className="secondary-accent">
-            <h2 className="mr-5">Accounting Dashboard <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></h2>
+          <a href="https://github.com/makarandmadhavi/BootKart---E-Commerce" target="_blank" className="primary-accent">
+            <h2 className="mr-5">Bootkart Ecommerce <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></h2>
           </a>
-          <div className="flex flex-row">
-            <div className="badge">API Integration</div>
+          <div className="flex flex-row flex-wrap gap-y-2">
             <div className="badge">Web Development</div>
-            <div className="badge">Full Stack</div>
-            <div className="badge">Next.js</div>
-          </div>
+            <div className="badge">jQuery</div>
+            <div className="badge">php</div>
+            <div className="badge">MySQL</div>
 
+          </div>
           <p className="secondary-text">
-            A full stack web application that provides a dashboard for accounting and finance management.
+            A Full-stack E-commerce website for selling electronics. Built using jQuery, PHP, and MySQL.
           </p>
-          <a href="https://api-integration.makarandmadhavi.me/" target="_blank" className="project-item">
+          <a href="https://github.com/makarandmadhavi/BootKart---E-Commerce" target="_blank" className="project-item">
             <Image
-              src="https://makarandmadhavi.github.io/icstat.png"
-              alt="Accounting Dashboard"
+              src="https://makarandmadhavi.github.io/demouser.gif"
+              alt="Demo gif"
               width={500}
               height={500}
               className="w-full"
             />
           </a>
         </div>
+
         <div className="flex flex-col gap-5 flex-wrap md:w-2/5 frosted-glass px-10 py-5">
-          <a href="https://github.com/makarandmadhavi/Marketting-Campaign-Feature-Engineering-Modeling-Interpretability-report/blob/main/Marketting_Campaign_Feature_Engineering__Modeling_Interpretability_Report.ipynb" target="_blank" className="primary-accent">
+          <a href="https://github.com/makarandmadhavi/Marketting-Campaign-Feature-Engineering-Modeling-Interpretability-report/blob/main/Marketting_Campaign_Feature_Engineering__Modeling_Interpretability_Report.ipynb" target="_blank" className="secondary-accent">
             <h2 className="mr-5">Marketting Campaign Reponse Analysis <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></h2>
           </a>
           <div className="flex flex-row flex-wrap gap-y-2">
@@ -186,8 +214,10 @@ export default function Home() {
             />
           </a>
         </div>
+
+
         <div className="flex flex-col gap-5 flex-wrap md:w-2/5 frosted-glass px-10 py-5">
-          <a href="https://makarandmadhavi.me/RollaBallGame/" target="_blank" className="secondary-accent">
+          <a href="https://makarandmadhavi.me/RollaBallGame/" target="_blank" className="primary-accent">
             <h2 className="mr-5">Roll a Ball Game <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></h2>
           </a>
           <div className="flex flex-row flex-wrap gap-y-2">
@@ -211,7 +241,7 @@ export default function Home() {
           </a>
         </div>
         <div className="flex flex-col gap-5 flex-wrap md:w-2/5 frosted-glass px-10 py-5">
-          <a href="https://github.com/makarandmadhavi/NU-Chronicles" target="_blank" className="primary-accent">
+          <a href="https://github.com/makarandmadhavi/NU-Chronicles" target="_blank" className="secondary-accent">
             <h2 className="mr-5">NU Chronicles <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></h2>
           </a>
           <div className="flex flex-row flex-wrap gap-y-2">
@@ -223,7 +253,7 @@ export default function Home() {
 
           </div>
           <p className="secondary-text">
-            A web application for students to share their experiences at Northeastern University. The application is built using MERN stack.
+            A Full-Stack web app for students to share their experiences at Northeastern University. Built using MongoDb, Express, React and node.js.
           </p>
           <a href="https://github.com/makarandmadhavi/NU-Chronicles" target="_blank" className="project-item">
             <Image
@@ -235,30 +265,7 @@ export default function Home() {
             />
           </a>
         </div>
-        <div className="flex flex-col gap-5 flex-wrap md:w-2/5 frosted-glass px-10 py-5">
-          <a href="https://github.com/makarandmadhavi/BootKart---E-Commerce" target="_blank" className="secondary-accent">
-            <h2 className="mr-5">Bootkart Ecommerce <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></h2>
-          </a>
-          <div className="flex flex-row flex-wrap gap-y-2">
-            <div className="badge">Web Development</div>
-            <div className="badge">jQuery</div>
-            <div className="badge">php</div>
-            <div className="badge">MySQL</div>
 
-          </div>
-          <p className="secondary-text">
-            A simple E-commerce website for selling electronics based on LAMP stack.
-          </p>
-          <a href="https://github.com/makarandmadhavi/BootKart---E-Commerce" target="_blank" className="project-item">
-            <Image
-              src="https://makarandmadhavi.github.io/demouser.gif"
-              alt="Demo gif"
-              width={500}
-              height={500}
-              className="w-full"
-            />
-          </a>
-        </div>
 
       </div>
 

@@ -19,7 +19,7 @@ export default function Home() {
         />
         <div className="frosted-glass p-10 max-w-lg">
           <h3 >Hi ! 👋 </h3>
-          <h4 className="card-title mb-0">Makarand here </h4>
+          <h4 className="card-title mb-0"><Link href="/Makarand_Madhavi.pdf" className="primary-accent">Makarand</Link>  here </h4>
           <br />
           <p className="secondary-text">Versatile <span className="primary-accent"> Software Engineer</span> with a proven track record in web development, microservices, APIs, machine learning/AI, and DevOps.</p>
           <p className="white">Explore my portfolio to see my projects in action!</p>
